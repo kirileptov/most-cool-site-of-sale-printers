@@ -3,19 +3,23 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     background-color: rgb(181, 241, 179);
     padding: 20px;
 }
 
 header a {
+    
     color: black;
     background-color: white;
     font-size: 20px;
     text-decoration: none;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     margin: 30px;
+    
 }
 
 header img {
@@ -39,7 +43,7 @@ main p {
     font-size: 20px;
     padding: 20px;
     margin: 20px;
-    border: 1px solid navy;
+    border: 1px solid rgb(19, 87, 10);
     border-radius: 15px;
 }
 
